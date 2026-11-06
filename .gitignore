@@ -1,0 +1,23 @@
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and build output of the video tooling
+node_modules/
+videos/capture/out/
+
+# Video files are published on YouTube (see README); keep local copies out of git
+videos/*.mp4
+*.mov
+
+# Never commit secrets or local environment files
+.env
+.env.*
+*.key
+*.pem
+
+# Logs
+*.log
